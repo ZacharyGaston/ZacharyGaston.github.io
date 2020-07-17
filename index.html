@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <title>Zachary's Retro Website</title>
+      <style>
+    body {
+        background: rgb(125, 198, 205);
+        color: rgb(45, 45, 45);
+        padding: 10px;
+        font-family: arial;
+        background-image: url(https://www.svgrepo.com/show/86106/videogame.svg);
+        background-position:96px 160px,
+                            top right;
+        background-repeat: space repeat
+                           repeat;
+        background-size:125px 210px, 
+                        150px 250px;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(255, 210, 8);
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 10px 40px;
+        display: flex;
+        padding: 10px;
+    }
+    nav h1 {
+        display: flex;
+        align-items: center;
+        color: white;
+        flex: 1;
+        margin: 0;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(245, 238, 219);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    h2, h3 {
+        margin: 0px;
+    }
+</style>
+    </head>
+    
+    <body>
+       <div id="all-contents"> 
+        <nav>
+            <h1>Zachary's Retro Website</h1>
+            <ul>
+                <li>
+                  <a href="index.html"> Home </a>
+                </li>
+                    <li>
+                      <a href="portfolio.html"> Portfolio </a>
+                    </li>
+            </ul>
+        </nav>
+
+        <main>
+             <div class="sidebar">
+                  <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/79929674_2875130285884267_6835530276530028544_n.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=XqYaGGRi3HcAX8DkDt8&_nc_ht=scontent-atl3-1.xx&oh=0e380fb9327b6f80029a34de4d992164&oe=5F3871AC">
+      
+            </div>
+
+                <div class="content">
+                    
+                  <h2>Zachary Gaston </h2>
+                  <p>Student at Operation Spark </p>
+                  <div id="interests">
+                    <h3>Interests</h3>
+                        <ul>
+                            <li>Music</li>
+                            <li>Videogames</li>
+                            <li>Technology</li>
+                        </ul>
+                    </div>
+            </div>
+        </main>
+    </div>
+    </body>
+</html>
