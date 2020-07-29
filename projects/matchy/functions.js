@@ -32,7 +32,7 @@
  * of our animals array has a name parameter attached through dot notation is strictly equal
  * to our name parameter then we want this function to return those animals accessing that index
  * through our bracket notation. This will ensure that the names of our animals strictly equal the 
- * name in string format since the name parameter is a string.Otherwise we should return null outside 
+ * name in string format since the name parameter is a string. Otherwise we should return null outside 
  * of our for loop if no animal with that specific name exists when using the search bar.
  */
 
@@ -120,7 +120,7 @@ function remove(animals, name){
  * First, we will create a function called add that will take in the parameters called animals and animal.Inside of its
  * code block will lie our code block. We are going to make usage of our ! operator here. The ! is a logical operator that 
  * will convert a value to its opposite boolean. We want this because ultimately our function should add an animal if no 
- * other animal shares a name of a possible new animal; making our boolean expections of false to be true. So, if the two lengths
+ * other animal shares a name of a possible new animal; making our boolean expectations of false to be true. So, if the two lengths
  * of the name && the species properties, keeping in mind that the parameter animal is an object therefore we can use dot notation,
  * on animal are greater than 0 then we want it to return. Next our for loop will have our starting condition will have our index
  * start at 0, our stopping condtional will have our index be less than the length of our animals and our incrementor will count
