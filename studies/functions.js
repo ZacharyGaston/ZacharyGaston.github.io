@@ -79,7 +79,7 @@ myValue(z); //  prints => 200 and 30 to the console
 function invisibleInputs() {
 console.log("Where are my inputs?");
 }
-invisbleInputs();// prints => “Where are my inputs?” to the console.
+invisibleInputs();// prints => “Where are my inputs?” to the console.
 
 // 6. Scope: Functions can see and modify variables in parent or global scopes. The inverse is NOT true.//
 
