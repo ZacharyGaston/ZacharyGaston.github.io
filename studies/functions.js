@@ -55,7 +55,7 @@ let apples = 20;
 let bananas = 12;
 const myFruitTotal = function(w, x){
 return w + x;
-}
+};
 myFruitTotal(apples, bananas); // prints => 32 to the console.
 
 // 5. Functions can OPTIONALLY take inputs, and OPTIONALLY return a single value.//
