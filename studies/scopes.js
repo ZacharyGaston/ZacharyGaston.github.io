@@ -25,11 +25,12 @@
   // 2. Global Scope //
   
   /**
-   * Here in the first coding example below, I created a function expression that assigned my 
-   * variable called arrays to a function that takes string as a parameter. Within my code block,
-   * I have returned the arrays which is the name of my declared variable. A general rule of thumb
-   * is to generally not write your code to have a variable with the same name as your parameter, 
-   * for it may cause errors in the future like writing the wrong code if one were to call this function
+   * Here in the first coding example below, I created a variable called southernUnitedStates
+   * and assigned it as a value to the string of "Louisiana". Then I declared a function called 
+   * southernStates that uses nothing as a parameter. Within my code block, I have returned 
+   * southernUnitedStates which is the name of my declared variable. A general rule of thumb
+   * you should generally not write your code to have a variable with the same name as your parameter, 
+   * for it may cause errors in the future like writing the wrong name if one were to call this function
    * and the computer probably won't know what you are trying to reference within your code block.
    * If this was the function body, then the name adhered to your function would be the name you would
    * reference, just like in the instance that if you were to use it globally. 
