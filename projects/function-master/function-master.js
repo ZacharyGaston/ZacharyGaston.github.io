@@ -43,7 +43,20 @@ function capitalizeWord(string) {
 //////////////////////////////////////////////////////////////////////
 
 function capitalizeAllWords(string) {
-    
+//First we are going to split our string parameter so that our words will have spaces in between
+//2nd declare a for loop that will iterate through the entire length of our string
+//3rd accessing those indexed values on our string parameter, assign it to string[i] again 
+//where we want to all of our words at the first index to be capitalized
+//concatenate it with string[i] where we need to use the slice method 
+//return string with the join method to join our words back together as a string outside of our for loop.
+    string = string.split(" ");
+
+    for (var i = 0; i < string.length; i++){
+
+        string[i] = string[i][0].toUpperCase() + string[i].slice(1);
+   
+} 
+return string.join(" ");
 }
 
 //////////////////////////////////////////////////////////////////////
