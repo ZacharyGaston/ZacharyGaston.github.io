@@ -118,7 +118,7 @@
  
  /**
   * In the above example, if we are discussing being in the function body, then my parameter of number is 
-  * the one being called because it is located within the local scope. The JAvascript interpreter has
+  * the one being called because it is located within the local scope. The Javascript interpreter has
   * the ability to look outside of its scope, if and only if there was nothing defined. However,
   * this is not the case since my parameter is being returned in the local scope and being invoked.
   * If we wanted to be in our global scope then we would need to access my variable called var number.
